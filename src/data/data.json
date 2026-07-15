@@ -1,0 +1,83 @@
+{
+    "greeting": "Hallo, ich bin Julia Tarasow –",
+    "about": {
+        "title": "Anwendungsentwicklerin und Designerin. Ich lebe und arbeite in Leipzig.",
+        "text": "Im Grafik-Design-Studium habe ich angefangen Webseiten mit HTML und CSS zu bauen. Seitdem habe ich nie aufgehört dazuzulernen. Heute entwerfe und entwickle ich Benutzeroberflächen mit professionellen Ansätzen und Tools. Besonders wichtig ist mir die Zusammenarbeit mit Menschen, für die ich Lösungen erschaffen kann, die ästhetisch ansprechend sind und gut funktionieren. Dabei lege ich nicht nur Wert auf das visuelle Ergebnis, sondern auch auf eine saubere Umsetzung. Auf dieser Seite zeige ich drei Projekte, die meine Arbeit als Entwicklerin, UX/UI-Designerin und Grafikdesignerin widerspiegeln."
+    },
+    "projects": [
+        {
+            "title": "Participants",
+            "subtitle": "Terminübersicht für Studienplanung",
+            "year": "2025",
+            "images": [
+                {
+                    "name": "browser",
+                    "src": "images/Participants_Safari.png",
+                    "alt": "Browseransicht der Participants-Tabelle"
+                },
+                {
+                    "name": "figma",
+                    "src": "images/Participants_Figma_Screens_Prototypes.jpg",
+                    "alt": "Figma-Design und Prototypisierung"
+                },
+                {
+                    "name": "modal",
+                    "src": "images/Participants_Edit_Appointment.png",
+                    "alt": "Modal-Fenster zum Bearbeiten eines Termins"
+                },
+                {
+                    "name": "componentTree",
+                    "src": "images/ParticipantsFrontend_Komponenten.png",
+                    "alt": "Aufbau der Edit-Appointment-Komponente"
+                }
+            ],
+            "projectDetails": {
+                    "stack": [
+                        "React.js",
+                        "Redux", 
+                        "Material UI", 
+                        "JavaScript", 
+                        "REST API", 
+                        "Figma"
+                    ],
+                    "role": [
+                        "Frontend-Entwicklung", 
+                        "UX/UI-Design"
+                    ]   
+                }
+        },
+        {
+            "title": "Projekt 2",
+            "subtitle": "Untertitel des Projekts 2",    
+            "description": "Beschreibung des Projekts 2",
+            "projectDetails":  {
+                    "stack": [
+                        "React", 
+                        "TypeScript", 
+                        "TailwindCSS"
+                    ],
+                    "role": [
+                        "Frontend-Entwicklung", 
+                        "UX/UI-Design"
+                    ]   
+                }
+        },
+        {
+            "title": "Projekt 3",
+            "subtitle": "Untertitel des Projekts 3",
+            "description": "Beschreibung des Projekts 3",
+            "projectDetails": {
+                    "stack": [
+                        "React", 
+                        "TypeScript", 
+                        "TailwindCSS"
+                    ],
+                    "role": [
+                        "Frontend-Entwicklung", 
+                        "UX/UI-Design"
+                    ]   
+                }
+        }
+    ]
+    
+}

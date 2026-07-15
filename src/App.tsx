@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
+import { ROUTES } from './routes'
+
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 import Projects from './pages/Projects'
@@ -11,14 +13,20 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/:id" element={<ProjectDetail />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <div className="min-h-screen flex flex-col">
+        <Navigation />
+
+        <main className="flex-1">
+          <Routes>
+            <Route path={ROUTES.HOME} element={<LandingPage />} />
+            <Route path={ROUTES.PROJECTS} element={<Projects />} />
+            <Route path={ROUTES.PROJECT_DETAIL} element={<ProjectDetail />} />
+            <Route path={ROUTES.CONTACT} element={<Contact />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </div>
     </BrowserRouter>
   )
 }

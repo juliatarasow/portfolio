@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <>
-    Hello Contact!
-    </>
+    <section className="page-wrapper">
+      Hello Contact!
+    </section>
   )
 }
 

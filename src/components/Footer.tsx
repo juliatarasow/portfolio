@@ -3,10 +3,22 @@ import { FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer>
-        <a href="https://github.com/juliatarasow" target="_blank" rel="noopener noreferrer"> <FaGithub /> GitHub</a>
-        <a href="https://www.linkedin.com/in/julia-tarasow-291087215/" target="_blank" rel="noopener noreferrer"> <FaLinkedin /> LinkedIn</a>
-        <p>&copy; {new Date().getFullYear()} Julia Tarasow. All rights reserved.</p>
+    <footer className="page-wrapper flex justify-between py-4">
+      <div className="flex gap-6 text-regular">
+        <a className="flex" href="https://github.com/juliatarasow" target="_blank" rel="noopener noreferrer"> 
+          <FaGithub className="footer-icon" /> 
+          GitHub
+        </a>
+        
+        <a className="flex items-center" href="https://www.linkedin.com/in/julia-tarasow-291087215/" target="_blank" rel="noopener noreferrer"> 
+          <FaLinkedin className="footer-icon" /> 
+          LinkedIn
+        </a>
+      </div>
+        
+        <p>
+          &copy; {new Date().getFullYear()} Julia Tarasow. All rights reserved.
+        </p>
     </footer>
   )
 }

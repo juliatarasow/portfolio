@@ -1,8 +1,8 @@
 const ProjectDetail = () => {
   return (
-    <>
-    Hello Project Detail!
-    </>
+    <section className="page-wrapper">
+      Hello Project Detail!
+    </section>
   )
 }
 

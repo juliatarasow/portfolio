@@ -1,10 +1,13 @@
+import { NavLink } from 'react-router-dom'
+import { ROUTES } from '../routes'
+
 const Navigation = () => {
   return (
-    <nav> 
-        <ul>
-            <li><a href="/">Julia Tarasow</a></li>
-            <li><a href="/projects">Projekte</a></li>
-            <li><a href="/contact">Kontakt</a></li>
+    <nav className="page-wrapper"> 
+        <ul className="flex gap-20 py-4">
+            <li className="h3"><NavLink to={ROUTES.HOME}>Julia Tarasow</NavLink></li>
+            <li className="text-nav"><NavLink to={ROUTES.PROJECTS}>Projekte</NavLink></li>
+            <li className="text-nav"><NavLink to={ROUTES.CONTACT}>Kontakt</NavLink></li>
         </ul>
     </nav>
   )
