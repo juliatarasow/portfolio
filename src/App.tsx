@@ -2,14 +2,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import { ROUTES } from './routes'
 
-import Footer from './components/Footer'
-import Navigation from './components/Navigation'
-import Projects from './pages/Projects'
-import ProjectDetail from './pages/ProjectDetail'
-import Contact from './pages/Contact'
-import LandingPage from './pages/LandingPage'
+import { Footer } from './components/Footer'
+import { Navigation } from './components/Navigation'
+import { Projects } from './pages/Projects'
+import { ProjectDetail } from './pages/ProjectDetail'
+import { Contact } from './pages/Contact'
+import { LandingPage } from './pages/LandingPage'
 
-function App() {
+export function App() {
 
   return (
     <BrowserRouter>
@@ -31,4 +31,3 @@ function App() {
   )
 }
 
-export default App

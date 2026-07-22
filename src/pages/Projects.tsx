@@ -1,4 +1,4 @@
-const Projects = () => {
+export const Projects = () => {
   return (
     <section className="page-wrapper">
       Hello Projects!
@@ -6,4 +6,3 @@ const Projects = () => {
   )
 }
 
-export default Projects

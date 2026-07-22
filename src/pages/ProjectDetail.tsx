@@ -1,4 +1,4 @@
-const ProjectDetail = () => {
+export const ProjectDetail = () => {
   return (
     <section className="page-wrapper">
       Hello Project Detail!
@@ -6,4 +6,3 @@ const ProjectDetail = () => {
   )
 }
 
-export default ProjectDetail

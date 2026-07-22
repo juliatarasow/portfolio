@@ -1,4 +1,4 @@
-const Contact = () => {
+export const Contact = () => {
   return (
     <section className="page-wrapper">
       Hello Contact!
@@ -6,4 +6,3 @@ const Contact = () => {
   )
 }
 
-export default Contact

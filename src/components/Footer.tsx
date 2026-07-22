@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="page-wrapper flex justify-between py-4">
       <div className="flex gap-6 text-regular">
@@ -23,4 +23,3 @@ const Footer = () => {
   )
 }
 
-export default Footer

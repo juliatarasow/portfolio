@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { ROUTES } from '../routes'
 
-const Navigation = () => {
+export const Navigation = () => {
   return (
     <nav className="page-wrapper"> 
         <ul className="flex gap-20 py-4">
@@ -13,4 +13,3 @@ const Navigation = () => {
   )
 }   
 
-export default Navigation
