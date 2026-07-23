@@ -1,16 +1,43 @@
-import contentData from '../data/data.json'
-import type { Content } from '../types'
+import contentData from '../data.json'
+import type { Data } from '../types'
 
-const content: Content = contentData
+const content: Data = contentData
 
-const LandingPage = () => {
+export const LandingPage = () => {
   return (
     <section className="page-wrapper">
-      <p className='h1'>{content.greeting}</p>
-      <p className='h2'>{content.about.title}</p>
-      <p className='text-large'>{content.about.text}</p>
+      <div className="max-w-4xl mb-14">
+        <h1 className="h1 mb-6">
+          {content.about.greeting}
+        </h1>
+
+        <h2 className="h2-thinn mb-12">
+          {content.about.title}
+        </h2>
+
+        <div className="text-large space-y-6">
+          <p>
+            Im Grafik-Design-Studium habe ich angefangen Webseiten mit HTML und CSS zu bauen. 
+            Seitdem habe ich nie aufgehört dazuzulernen. 
+          </p>
+
+          <p>
+            Heute entwerfe und entwickle ich Benutzeroberflächen mit professionellen Ansätzen und Tools. 
+          </p>
+
+          <p>
+            Besonders wichtig ist mir die Zusammenarbeit mit Menschen, für die ich Lösungen erschaffen kann, 
+            die ästhetisch ansprechend sind und gut funktionieren. Dabei lege ich nicht nur Wert auf das 
+            visuelle Ergebnis, sondern auch auf eine saubere Umsetzung.
+          </p>
+
+          <p>
+            Auf dieser Seite zeige ich drei Projekte, die meine Arbeit als Entwicklerin, UX/UI-Designerin 
+            und Grafikdesignerin widerspiegeln.
+          </p>
+        </div>
+      </div>
     </section>
   )
 }
 
-export default LandingPage

@@ -1,0 +1,152 @@
+{
+    "about": {
+        "greeting": "Hey, ich bin Julia Tarasow –",
+        "title": "Anwendungsentwicklerin und Designerin. Ich lebe und arbeite in Leipzig."
+    },
+    "projects": [
+        {
+            "title": "Participants",
+            "subtitle": "Terminübersicht für Studienplanung",
+            "year": "2025",
+            "images": [
+                {
+                    "name": "browser",
+                    "src": "/assets/images/participants/Participants_Safari.png",
+                    "alt": "Browseransicht der Participants-Tabelle"
+                },
+                {
+                    "name": "figma",
+                    "src": "/assets/images/participants/Participants_Figma_Screens_Prototypes.jpg",
+                    "alt": "Figma-Design und Prototypisierung"
+                },
+                {
+                    "name": "modal",
+                    "src": "/assets/images/participants/Participants_Edit_Appointment.png",
+                    "alt": "Modal-Fenster zum Bearbeiten eines Termins"
+                },
+                {
+                    "name": "componentTree",
+                    "src": "/assets/images/participants/ParticipantsFrontend_Komponenten.png",
+                    "alt": "Aufbau der Edit-Appointment-Komponente"
+                }
+            ],
+            "projectDetails": {
+                    "stack": [
+                        "React.js",
+                        "Redux", 
+                        "Material UI", 
+                        "JavaScript", 
+                        "REST API", 
+                        "Figma"
+                    ],
+                    "role": [
+                        "Frontend-Entwicklung", 
+                        "UX/UI-Design"
+                    ]   
+                }
+        },
+        {
+            "title": "Snippy",
+            "subtitle": "Snippetsammlung für Entwickler",    
+            "year": "2026",
+            "images": [
+                {
+                    "name": "browser-alt",
+                    "src": "/assets/images/snippy/Snippy_alt_Create.png",
+                    "alt": "alte Browseransicht der Snippy-Webseite"
+                },
+                {
+                    "name": "analysis",
+                    "src": "/assets/images/snippy/Snippy_Competitive_Analysis.jpg",
+                    "alt": "Wettbewerbsvergleich"
+                },
+                {
+                    "name": "persona1",
+                    "src": "/assets/images/snippy/Persona_1.png",
+                    "alt": "Persona 1"
+                },
+                 {
+                    "name": "persona2",
+                    "src": "/assets/images/snippy/Persona_2.png",
+                    "alt": "Persona 2"
+                },
+                 {
+                    "name": "persona3",
+                    "src": "/assets/images/snippy/Persona_3.png",
+                    "alt": "Persona 3"
+                },
+                {
+                    "name": "featureList",
+                    "src": "/assets/images/snippy/Featureliste.jpg",
+                    "alt": "Featureliste"
+                },
+                {
+                   "name": "moscow",
+                    "src": "/assets/images/snippy/Moscow_must_should.jpg",
+                    "alt": "MoSCoW-Analyse" 
+                },
+                {
+                   "name": "userFlows",
+                    "src": "/assets/images/snippy/User_Flows_Snippy.png",
+                    "alt": "User-Flows" 
+                },
+                {
+                   "name": "userFlowCreate",
+                    "src": "/assets/images/snippy/User_Flows_Snippy_Erstellen.png",
+                    "alt": "User-Flow für das Erstellen eines Snippets" 
+                }
+            ],
+            "projectDetails":  {
+                    "stack": [
+                        "React", 
+                        "TypeScript", 
+                        "TailwindCSS"
+                    ],
+                    "role": [
+                        "Frontend-Entwicklung", 
+                        "UX/UI-Design"
+                    ]   
+                }
+        },
+        {
+            "title": "Projekt 3",
+            "subtitle": "Untertitel des Projekts 3",
+            "year": "2025",
+            "images": [
+                {
+                    "name": "browser",
+                    "src": "/assets/images/Projekt3_Browser.png",
+                    "alt": "Browseransicht des Projekts 3"
+                },
+                {
+                    "name": "figma",
+                    "src": "images/Projekt3_Figma_Screens_Prototypes.jpg",
+                    "alt": "Figma-Design und Prototypisierung des Projekts 3"
+                },
+                {
+                    "name": "modal",
+                    "src": "images/Projekt3_Edit_Snippet.png",
+                    "alt": "Modal-Fenster zum Bearbeiten eines Snippets im Projekt 3"
+                },
+                {
+                    "name": "componentTree",
+                    "src": "images/Projekt3Frontend_Komponenten.png",
+                    "alt": "Aufbau der Edit-Snippet-Komponente"
+                }
+            ],
+            "description": "Beschreibung des Projekts 3",
+            "projectDetails": {
+                    "stack": [
+                        "React", 
+                        "TypeScript", 
+                        "TailwindCSS"
+                    ],
+                    "role": [
+                        "Frontend-Entwicklung", 
+                        "UX/UI-Design"
+                    ]   
+                }
+        }
+    ]
+    
+}

@@ -1,13 +1,18 @@
-export interface Content {
-    greeting: string;
+export interface Data {
     about: About;
     projects: Project[];
 }
 
 export interface About {
+    greeting: string;
     title: string;
-    text: string;
 }
+
+export type ProjectCardProps = {
+  title: string;
+  subtitle: string;
+  image: string;
+};
 
 export interface Project {
     title: string;
