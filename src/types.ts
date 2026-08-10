@@ -1,35 +1,47 @@
+import type { ProjectId } from "./routes";
+
 export interface Data {
-    about: About;
-    projects: Project[];
+  about: About;
+  projects: Project[];
 }
 
 export interface About {
-    greeting: string;
-    title: string;
+  greeting: string;
+  title: string;
 }
 
 export type ProjectCardProps = {
+  id: ProjectId;
   title: string;
   subtitle: string;
-  image: string;
+  image: ImageProps;
 };
 
 export interface Project {
-    title: string;
-    subtitle: string;
-    year: string;
-    images: Image[];
-    projectDetails: ProjectDetails;
+  id: ProjectId;
+  title: string;
+  subtitle: string;
+  year: string;
+  images: ImageProps[];
+  projectDetails: ProjectDetails;
 }
 
-export interface Image {
-    name: string;
-    src: string;
-    alt: string;
-    caption?: string;
+export interface ImageProps {
+  src: string;
+  alt: string;
+  caption?: string;
+  className?: string;
+}
+
+export interface ProjectHeroProps {
+  title: string;
+  subtitle: string;
+  year: string;
+  heroImage: ImageProps;
+  projectDetails: ProjectDetails;
 }
 
 export interface ProjectDetails {
-    stack: string[];
-    role: string[];
+  stack: string[];
+  role: string[];
 }

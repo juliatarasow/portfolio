@@ -2,12 +2,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import { ROUTES } from './routes'
 
-import { Footer } from './components/Footer'
 import { Navigation } from './components/Navigation'
-import { Projects } from './pages/Projects'
-import { ProjectDetail } from './pages/ProjectDetail'
-import { Contact } from './pages/Contact'
+import { Footer } from './components/Footer'
 import { LandingPage } from './pages/LandingPage'
+import { Projects } from './pages/Projects'
+import { ProjectParticipants } from './pages/ProjectParticipants'
+import { ProjectSnippy } from "./pages/ProjectSnippy"
+import { ProjectKsk } from "./pages/ProjectKsk"
+import { Contact } from './pages/Contact'
+
+
+
 
 export function App() {
 
@@ -20,7 +25,9 @@ export function App() {
           <Routes>
             <Route path={ROUTES.HOME} element={<LandingPage />} />
             <Route path={ROUTES.PROJECTS} element={<Projects />} />
-            <Route path={ROUTES.PROJECT_DETAIL} element={<ProjectDetail />} />
+            <Route path={ROUTES.PROJECT_PARTICIPANTS} element={<ProjectParticipants />} />
+            <Route path={ROUTES.PROJECT_SNIPPY} element={<ProjectSnippy />} />
+            <Route path={ROUTES.PROJECT_KSK} element={<ProjectKsk />} />
             <Route path={ROUTES.CONTACT} element={<Contact />} />
           </Routes>
         </main>

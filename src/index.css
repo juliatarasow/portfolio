@@ -34,7 +34,7 @@
   }
 
   .h2-thinn {
-    @apply text-4xl leading-snug;
+    @apply text-4xl leading-5;
   }
 
   .h3 {
@@ -46,11 +46,15 @@
   }
 
   .text-large {
-    @apply text-2xl leading-relaxed;
+    @apply text-2xl leading-6;
   }
 
   .text-regular {
-    @apply text-xl leading-relaxed;
+    @apply text-xl leading-6;
+  }
+
+  .text-caption {
+    @apply text-base
   }
 
   .footer-icon {
