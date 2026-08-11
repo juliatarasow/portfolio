@@ -1,3 +1,4 @@
+import { Image } from './Image';
 import { type ProjectHeroProps } from '../types';
 
 export const ProjectHero = ({ 
@@ -5,7 +6,8 @@ export const ProjectHero = ({
   subtitle, 
   year, 
   heroImage, 
-  projectDetails 
+  projectDetails,
+  description
 }: ProjectHeroProps) => {
   return (
     <>
@@ -14,12 +16,15 @@ export const ProjectHero = ({
       <h2 className="h2">{year}</h2>
     </div>
     <h2 className="h2">{subtitle}</h2>
-    Hello Project Hero!
-        // Überschrift & Jahr
-        // Unterüberschrift
-        // großes Bild
-        // Beschreibungstext
-        //Projekt-Details (Stack, Rolle)
+    <Image {...heroImage} />
+    {description}
+
+    <h2 className="h2">Projektdetails</h2>
+    <p className="text-nav">Stack:</p>
+    <p>{projectDetails.stack.join(", ")}</p>
+
+    <p className="text-nav">Rolle:</p>
+    <p>{projectDetails.role.join(", ")}</p>
     </>
   )
 }

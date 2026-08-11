@@ -18,7 +18,6 @@ export type ProjectCardProps = {
 };
 
 export interface Project {
-  id: ProjectId;
   title: string;
   subtitle: string;
   year: string;
@@ -38,6 +37,7 @@ export interface ProjectHeroProps {
   subtitle: string;
   year: string;
   heroImage: ImageProps;
+  description: React.ReactNode;
   projectDetails: ProjectDetails;
 }
 

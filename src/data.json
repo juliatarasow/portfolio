@@ -99,20 +99,32 @@
             "year": "2024",
             "images": [
                 {
-                    "src": "/assets/images/Projekt3_Browser.png",
-                    "alt": "Browseransicht des Projekts 3"
+                    "src": "/assets/images/ksk/104_KSK_Leipzig_Programmheft4.png",
+                    "alt": "Beispieldoppelseite aus dem Programmheft"
                 },
                 {
-                    "src": "images/Projekt3_Figma_Screens_Prototypes.jpg",
-                    "alt": "Figma-Design und Prototypisierung des Projekts 3"
+                    "src": "/assets/images/ksk/Namensschilder_alle150.png",
+                    "alt": "Namensschild"
                 },
                 {
-                    "src": "images/Projekt3_Edit_Snippet.png",
-                    "alt": "Modal-Fenster zum Bearbeiten eines Snippets im Projekt 3"
+                    "src": "/assets/images/ksk/KSK-Sticker_mit_Beschnitt.png",
+                    "alt": "Sticker"
                 },
                 {
-                    "src": "images/Projekt3Frontend_Komponenten.png",
-                    "alt": "Aufbau der Edit-Snippet-Komponente"
+                    "src": "/assets/images/ksk/104_KSK_Leipzig_Programmheft11.png",
+                    "alt": "Beispieldoppelseite aus dem Programmheft"
+                },
+                {
+                    "src": "/assets/images/ksk/Programmtabelle.jpg",
+                    "alt": "Programmtabelle"
+                },
+                {
+                    "src": "/assets/images/ksk/104_KSK_Leipzig_Plakat_web-min.jpg",
+                    "alt": "Plakat"
+                },
+                {
+                    "src": "/assets/images/ksk/beutel_vollfarbe.png",
+                    "alt": "Beutelentwurf"
                 }
             ],
             "projectDetails": {
