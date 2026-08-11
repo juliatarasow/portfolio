@@ -5,7 +5,7 @@ export const Image = ({ src, alt, caption, className }: ImageProps) => {
     <div>
       <img src={src} 
       alt={alt} 
-      className="" />
+      className={className} />
       <p>
         {caption}
       </p>

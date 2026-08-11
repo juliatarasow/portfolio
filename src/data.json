@@ -22,7 +22,7 @@
                     "alt": "Modal-Fenster zum Bearbeiten eines Termins"
                 },
                 {
-                    "src": "/assets/images/participants/ParticipantsFrontend_Komponenten.png",
+                    "src": "/assets/images/participants/Participants_Frontend_Komponenten.png",
                     "alt": "Aufbau der Edit-Appointment-Komponente"
                 }
             ],
@@ -98,6 +98,10 @@
             "subtitle": "Kunsthistorischer Studienkongress in Leipzig",
             "year": "2024",
             "images": [
+                {
+                    "src": "/assets/images/ksk/104_KSK_Leipzig_Plakat_web-min.jpg",
+                    "alt": "Plakat"
+                },
                 {
                     "src": "/assets/images/ksk/104_KSK_Leipzig_Programmheft4.png",
                     "alt": "Beispieldoppelseite aus dem Programmheft"

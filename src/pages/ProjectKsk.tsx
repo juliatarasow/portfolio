@@ -1,4 +1,5 @@
 import { ProjectHero } from "../components/ProjectHero"
+import { Image } from "../components/Image"
 
 import contentData from '../data.json'
 import type { Data } from '../types'
@@ -35,7 +36,14 @@ export const ProjectKsk = () => {
         heroImage={project.images[0]} 
         projectDetails={project.projectDetails} 
         description={description}
-      />      
+      />   
+      <Image src={project.images[1].src} alt={project.images[1].alt} />   
+      <Image src={project.images[2].src} alt={project.images[2].alt} /> 
+      <Image src={project.images[3].src} alt={project.images[3].alt} /> 
+      <Image src={project.images[4].src} alt={project.images[4].alt} /> 
+      <Image src={project.images[5].src} alt={project.images[5].alt} /> 
+      <Image src={project.images[6].src} alt={project.images[6].alt} /> 
+      <Image src={project.images[7].src} alt={project.images[7].alt} /> 
     </section>
   )
 }
