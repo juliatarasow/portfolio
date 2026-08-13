@@ -13,7 +13,7 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Link to={ROUTES[id]}>
-      <div className="card-shadow relative aspect-square overflow-hidden">
+      <div className="main-shadow relative aspect-square overflow-hidden">
         <Image src={image.src} alt={title} className="absolute inset-0 w-full h-full object-cover"/>
         <div className="absolute bottom-0 w-full p-4 bg-white">
           <h2 className="h2">{title}</h2>

@@ -25,6 +25,14 @@
     @apply px-4 md:px-16 xl:px-40;
   }
 
+  .text-wrapper {
+    @apply max-w-4xl mb-14;
+  }
+
+  .p-space-regular {
+    @apply space-y-6;
+  }
+
   .h1 {
     @apply text-6xl font-bold;
   }
@@ -34,7 +42,7 @@
   }
 
   .h2-thinn {
-    @apply text-4xl leading-5;
+    @apply text-4xl leading-12 text-gray-500;
   }
 
   .h3 {
@@ -46,7 +54,7 @@
   }
 
   .text-large {
-    @apply text-2xl leading-6;
+    @apply text-2xl leading-8;
   }
 
   .text-regular {
@@ -61,7 +69,23 @@
     @apply text-2xl;
   }
 
-  .card-shadow {
+  .main-shadow {
     @apply shadow-[5px_15px_30px_0_rgba(0,0,0,0.25)];
+  }
+
+
+  .rounded-corners {
+    @apply rounded-md;
+  }
+
+  .x-gap-regular {
+    @apply gap-x-6;
+  }
+  .x-gap-large {
+    @apply gap-x-12;
+  }
+  
+  .padding-b-large {
+    @apply pb-24;
   }
 }

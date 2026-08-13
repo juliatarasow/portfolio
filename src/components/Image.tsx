@@ -1,14 +1,21 @@
 import type { ImageProps } from "../types";
 
-export const Image = ({ src, alt, caption, className }: ImageProps) => {
+export const Image = ({
+  src,
+  alt,
+  caption,
+  captionClassName,
+  className,
+}: ImageProps) => {
   return (
-    <div>
-      <img src={src} 
-      alt={alt} 
-      className={className} />
-      <p>
-        {caption}
-      </p>
-    </div>
+    <figure>
+      <img
+        src={src}
+        alt={alt}
+        className={`w-full h-auto ${className ?? ""}`}
+      />
+
+      {caption && <figcaption className={captionClassName ?? ""}>{caption}</figcaption>}
+    </figure>
   );
 };

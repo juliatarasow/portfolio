@@ -1,4 +1,4 @@
-import contentData from '../data.json'
+import contentData from '../content/data.json'
 import type { Data } from '../types'
 
 const content: Data = contentData
@@ -15,7 +15,7 @@ export const LandingPage = () => {
           {content.about.title}
         </h2>
 
-        <div className="text-large space-y-6">
+        <div className="text-large p-space-regular">
           <p>
             Im Grafik-Design-Studium habe ich angefangen Webseiten mit HTML und CSS zu bauen. 
             Seitdem habe ich nie aufgehört dazuzulernen. 

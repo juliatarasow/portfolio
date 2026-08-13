@@ -11,20 +11,29 @@ export const ProjectHero = ({
 }: ProjectHeroProps) => {
   return (
     <>
-    <div className="flex">
-      <h1 className="h1">{title}</h1>
-      <h2 className="h2">{year}</h2>
-    </div>
-    <h2 className="h2">{subtitle}</h2>
-    <Image {...heroImage} />
-    {description}
-
-    <h2 className="h2">Projektdetails</h2>
-    <p className="text-nav">Stack:</p>
-    <p>{projectDetails.stack.join(", ")}</p>
-
-    <p className="text-nav">Rolle:</p>
-    <p>{projectDetails.role.join(", ")}</p>
+      <div className="flex items-center justify-between pb-8">
+        <h1 className="h1">{title}</h1>
+        <h2 className="h2">{year}</h2>
+      </div>
+      <h2 className="h2-thinn padding-b-large">{subtitle}</h2>
+      <div className="w-full rounded-corners main-shadow overflow-hidden mb-12">
+        <Image {...heroImage} />
+      </div>
+      
+      <div className="text-large text-wrapper p-space-regular">
+        {description}
+      </div>
+      
+      <h2 className="h2 pb-8">Projektdetails</h2>
+      <div className="pb-8">
+        <p className="text-nav pb-2">Stack:</p>
+        <p className="text-large">{projectDetails.stack.join(", ")}</p>
+      </div>
+      
+      <div className="padding-b-large">
+        <p className="text-nav pb-2">Rolle:</p>
+        <p className="text-large">{projectDetails.role.join(", ")}</p>
+      </div>
     </>
   )
 }
