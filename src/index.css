@@ -78,6 +78,10 @@
     @apply rounded-md;
   }
 
+  .gap-large {
+    @apply gap-12;
+  }
+
   .x-gap-regular {
     @apply gap-x-6;
   }

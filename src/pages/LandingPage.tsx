@@ -1,4 +1,5 @@
 import contentData from '../content/data.json'
+import { landingPageText } from '../content/descriptions'
 import type { Data } from '../types'
 
 const content: Data = contentData
@@ -16,25 +17,7 @@ export const LandingPage = () => {
         </h2>
 
         <div className="text-large p-space-regular">
-          <p>
-            Im Grafik-Design-Studium habe ich angefangen Webseiten mit HTML und CSS zu bauen. 
-            Seitdem habe ich nie aufgehört dazuzulernen. 
-          </p>
-
-          <p>
-            Heute entwerfe und entwickle ich Benutzeroberflächen mit professionellen Ansätzen und Tools. 
-          </p>
-
-          <p>
-            Besonders wichtig ist mir die Zusammenarbeit mit Menschen, für die ich Lösungen erschaffen kann, 
-            die ästhetisch ansprechend sind und gut funktionieren. Dabei lege ich nicht nur Wert auf das 
-            visuelle Ergebnis, sondern auch auf eine saubere Umsetzung.
-          </p>
-
-          <p>
-            Auf dieser Seite zeige ich drei Projekte, die meine Arbeit als Entwicklerin, UX/UI-Designerin 
-            und Grafikdesignerin widerspiegeln.
-          </p>
+          {landingPageText}
         </div>
       </div>
     </section>
