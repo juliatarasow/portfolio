@@ -1,5 +1,6 @@
 import { ProjectHero } from "../components/ProjectHero";
 import { Image } from "../components/Image";
+import { BackToTop } from "../components/BackToTop";
 
 import contentData from "../content/data.json";
 import { snippyText } from "../content/descriptions";
@@ -11,6 +12,8 @@ const project = content.projects[1];
 export const ProjectSnippy = () => {
   return (
     <main className="page-wrapper">
+      <BackToTop />
+      
       <ProjectHero
         title={project.title}
         subtitle={project.subtitle}
