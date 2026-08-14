@@ -8,7 +8,7 @@ export const Contact = () => {
           unter folgender E-Mail-Adresse:
         </p>
         <p className="h2-thinn">
-          <a href="mailto:juliatarasow@web.de" className="hover:underline">
+          <a href="mailto:juliatarasow@web.de" className="link-hover">
             juliatarasow@web.de
           </a>
         </p>

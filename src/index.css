@@ -1,22 +1,28 @@
 @import "tailwindcss";
 
-@font-face {
-    font-family: 'Noah';
-    src: url('./assets/fonts/Noah-Regular.ttf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
+:root {
+  --accent-link: var(--color-violet-400);
+  --accent-light: var(--color-violet-200);
+  --accent-active: var(--color-violet-600);
 }
 
 @font-face {
-    font-family: 'Noah';
-    src: url('./assets/fonts/Noah-Bold.ttf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Noah";
+  src: url("./assets/fonts/Noah-Regular.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noah";
+  src: url("./assets/fonts/Noah-Bold.ttf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @layer base {
   body {
-    font-family: 'Noah', sans-serif;
+    font-family: "Noah", sans-serif;
   }
 }
 
@@ -62,7 +68,23 @@
   }
 
   .text-caption {
-    @apply text-base
+    @apply text-base;
+  }
+  
+  .link-hover {
+    @apply hover:text-[var(--accent-link)] transition-colors duration-300;
+  }
+
+  .link-hover.active {
+    @apply underline underline-offset-4
+  }
+
+  .card-hover {
+    @apply hover:shadow-[0px_10px_15px_0_rgba(0,0,0,0.25)] transition-shadow duration-300;
+  }
+
+  .button-hover {
+    @apply hover:bg-[var(--accent-light)] transition-colors duration-300 active:bg-[var(--accent-active)];
   }
 
   .footer-icon {
@@ -72,7 +94,6 @@
   .main-shadow {
     @apply shadow-[5px_15px_30px_0_rgba(0,0,0,0.25)];
   }
-
 
   .rounded-corners {
     @apply rounded-md;
@@ -88,7 +109,7 @@
   .x-gap-large {
     @apply gap-x-12;
   }
-  
+
   .padding-b-large {
     @apply pb-24;
   }

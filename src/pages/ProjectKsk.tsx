@@ -42,7 +42,7 @@ export const ProjectKsk = () => {
               "_blank",
             )
           }
-          className="text-nav card-shadow border border-solid p-2 main-shadow"
+          className="text-nav card-shadow border border-solid p-2 main-shadow card-hover button-hover"
         >
           Programmheft anschauen
         </button>

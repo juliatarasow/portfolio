@@ -21,7 +21,7 @@ export const ProjectParticipants = () => {
       />
 
       <section className="flex justify-center padding-b-large">
-        <div className="w-2/3">
+        <div className="w-3/4">
           <Image
             src={project.images[1].src}
             alt={project.images[1].alt}
